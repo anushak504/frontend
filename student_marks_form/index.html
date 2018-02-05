@@ -11,6 +11,10 @@
         <h1>Student Marks Validation Form</h1>
         <form onsubmit="return validateMarksForm(this)">
             <div>
+                <label>StudentName</label>
+                <input type="text" placeholder="Enter studentname" name="name" pattern="[a-z,A-Z]">
+            </div>
+            <div>
                 <label>English:</label>
                 <input type="number" placeholder="Enter marks" name="marks" pattern="[0-9]">
             </div>
