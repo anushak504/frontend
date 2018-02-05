@@ -6,6 +6,7 @@ form {
 label {
     padding: 2px;
     display: block;
+    font-weight: bold;
 }
 
 input[type=number] {
@@ -27,7 +28,7 @@ input[type=text] {
 }
 button {
     background-color: #D3D3D3;
-    color: white;
+    color: black;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
